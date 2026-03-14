@@ -105,9 +105,9 @@ function setupCSP() {
             "default-src 'self'",
             "script-src 'self' 'unsafe-inline'",    // Next.js needs inline scripts
             "style-src 'self' 'unsafe-inline'",      // Tailwind injects styles
-            "img-src 'self' data: blob: https://*.googleusercontent.com https://*.google.com https://telegra.ph http://165.232.116.243:*",
+            "img-src 'self' data: blob: https://*.googleusercontent.com https://*.google.com https://telegra.ph http://165.22.245.253:*",
             "font-src 'self' data:",
-            "connect-src 'self' http://localhost:* http://127.0.0.1:* http://165.232.116.243:* https://*",  // API calls + local streams + backend
+            "connect-src 'self' http://localhost:* http://127.0.0.1:* http://165.22.245.253:* https://*",  // API calls + local streams + backend
             "media-src 'self' blob:",                    // Canvas video frames
             "object-src 'none'",
             "frame-src 'none'",
